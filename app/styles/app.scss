@@ -1,0 +1,22 @@
+@import "settings";
+
+@import "foundation";
+
+body {
+	background-color: #94B4CD;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+
+#inputfile {
+	display: none;
+}
+
+#upload {
+
+}
