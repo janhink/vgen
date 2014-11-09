@@ -1,0 +1,29 @@
+.dropzone {
+	$border-color: rgb(180,180,180);
+	$background-highlight: #F7F7F7;
+	$border-highlight: 0px 0px 5px 2px rgba(180,180,180, 0.6);
+	
+	cursor: pointer;
+	width: 340px;
+	height: 340px; 
+	margin: 0 auto;
+	border: 1px dashed $border-color;
+	border-radius: 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&.highlight {
+		background-color: $background-highlight;
+		// -webkit-box-shadow: $border-highlight, inset $border-highlight;
+		// -moz-box-shadow:    $border-highlight, inset $border-highlight;
+		// box-shadow:         $border-highlight, inset $border-highlight;
+	}
+
+	input[type=file] {
+		display: none;
+	}
+
+	.dropzone-contents {
+		margin: 25%;
+	}
+}

@@ -1,0 +1,27 @@
+.narrow {
+	width: 340px;
+	margin: 0 auto;
+
+	.dropzone-container {
+		margin-bottom: 20px;
+
+		.dropzone {
+			.text {
+				color: $font-color-lighter;
+				margin-bottom: 10px;
+			}
+
+			.image {
+				height: 60px;
+				background-image: url(../upload.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position-x: 50%;
+				-webkit-filter: opacity(50%);
+			  	-moz-filter: opacity(50%);
+			  	-o-filter: opacity(50%);
+			  	-ms-filter: opacity(50%);
+			}
+		}
+	}
+}

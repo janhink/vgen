@@ -1,7 +1,13 @@
+<div {{bind-attr class=":status status::hidden"}}>
+    <span class="radius warning label">{{status}}</span>
+</div>
+
 <div class="row">
-    <div class="content columns large-9">
-        <h2 id='title'>Welcome to Ember.js</h2>
-        {{#file-upload action="upload"}}Upload{{/file-upload}}
-        <img id="image" {{bind-attr src="image"}}/>
+    <div class="content text-center medium-centered medium-9 columns">
+        <div class="header">
+            <h1 id='title'>Voucher Generator</h1>
+        </div>
+
+        {{outlet}}
     </div>
 </div>

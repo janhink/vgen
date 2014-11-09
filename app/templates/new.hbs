@@ -1,0 +1,19 @@
+<div class="narrow">
+    <article class="dropzone-container">
+        {{#drop-zone action="upload" status="showStatus" background=image}}
+        	<div {{bind-attr class=":text image:hide"}}>
+                Click here or drop picture files (png, jpg, gif) into this box.
+            </div>
+        	<div {{bind-attr class=":image image:hide"}}></div>
+        {{/drop-zone}}
+    </article>
+
+    <article class="row">
+        <div class="medium-6 columns">
+            <button {{action 'preview'}} {{bind-attr class=":success :left image::invisible"}}>Continue</button>
+        </div>
+        <div class="medium-6 columns">
+            <button {{action 'reset'}} {{bind-attr class=":right image::invisible"}}>Reset</button>
+        </div>
+    </article>
+</div>

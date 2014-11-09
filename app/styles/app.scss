@@ -1,22 +1,54 @@
 @import "settings";
-
 @import "foundation";
 
+@import "colors";
+@import "new";
+
+@import "components/drop-zone";
+
 body {
-	background-color: #94B4CD;
+	background-color: $background-color;
+	color: $font-color;
+}
+
+button {
+	@extend .radius;
+}
+
+.status {
+	position: fixed;
+	left: 50%;
+	opacity: 1;
+	visibility: visible;
+	z-index: 1000;
+	transition: opacity 1s ease 0s, visibility 0s linear 1s;
+
+	&.hidden {
+		visibility: hidden;
+		opacity: 0;;
+	}
+	
+	.label {
+		font-size: 14px;
+		position: relative;
+		left: -50%;
+		z-index: 1000;
+	}
+}
+
+.header {
+	h1 {
+		color: $color-dark;
+		margin-bottom: 40px;
+	}
 }
 
 .content {
-	width: 960px;
-	margin: 0 auto;
-	background-color: #FFFFFF;
-	padding: 20px;
+	background-color: $content-background-color;
+	padding: 40px 20px 20px 20px;
+	height: 100%;
 }
 
-#inputfile {
-	display: none;
-}
-
-#upload {
-
+.invisible {
+	visibility: hidden;
 }

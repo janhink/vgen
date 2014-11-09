@@ -1,12 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-
-	image: '',
+    status: '',
 
     actions: {
-        upload: function(file, data) {
-            this.set('image', data);
+        showStatus: function(text) {
+            this.set('status', text);
+            var that = this;
+            Ember.run.later(function() {
+                that.set('status', '');
+            }, 5000);
         }
     }
 });

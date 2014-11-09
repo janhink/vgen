@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"n",
+				"hidden"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"show",
+				"showStatus"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"backgrou",
+				"background-highlight"
+			],
+			[
 				"page-",
 				"page-break-after"
 			],
@@ -27,43 +47,64 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/templates/application.hbs",
-			"settings":
-			{
-				"buffer_size": 228,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "import Ember from 'ember';\n\nexport default Ember.Controller.extend({\n	actions: {\n		upload: function() {\n			alert('ss');\n		}\n	}\n});\n",
-			"file": "app/controllers/application.js",
-			"file_size": 156,
-			"file_write_time": 130596969923184310,
-			"settings":
-			{
-				"buffer_size": 131,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/app.scss",
-			"settings":
-			{
-				"buffer_size": 201,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colorsu",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"ju",
+				"TernJS: Jump to definition"
+			],
+			[
+				"jump",
+				"TernJS: Jump to definition"
+			],
+			[
+				"ternjs",
+				"TernJS: Jump to definition"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"remote",
+				"Git: Remote"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify: Set Prettify Preferences"
 			],
 			[
 				"instal",
@@ -72,10 +113,6 @@
 			[
 				"color",
 				"Color Picker"
-			],
-			[
-				"status",
-				"Git: Status"
 			],
 			[
 				"Package Control: re",
@@ -98,13 +135,14 @@
 				"Convert Case: Upper Case"
 			]
 		],
-		"width": 464.0
+		"width": 520.0
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 417.0,
 		"history":
 		[
+			"mongo",
 			"ls",
 			"view.encoding()"
 		]
@@ -120,30 +158,81 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Honza/Workspace/Web/vgen",
-		"/C/Users/Honza/Workspace/Web/vgen/app",
 		"/C/Users/Honza/Workspace/Web/vgen/app/controllers",
+		"/C/Users/Honza/Workspace/Web/vgen/app/routes",
 		"/C/Users/Honza/Workspace/Web/vgen/app/styles",
-		"/C/Users/Honza/Workspace/Web/vgen/app/templates"
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates",
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates/components"
 	],
 	"file_history":
 	[
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates/new.hbs",
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates/application.hbs",
+		"/C/Users/Honza/Workspace/Web/vgen/app/styles/app.scss",
+		"/C/Users/Honza/Workspace/Web/vgen/app/controllers/new.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/controllers/application.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/components/drop-zone.js",
+		"/C/Users/Honza/Workspace/Web/vgen/terminal.glue",
+		"/C/Users/Honza/Workspace/Web/vgen/app/styles/components/_drop-zone.scss",
+		"/C/Users/Honza/Workspace/Web/vgen/app/styles/_new.scss",
+		"/C/Users/Honza/Workspace/Web/vgen/app/styles/_colors.scss",
+		"/C/Users/Honza/Workspace/Web/vgen/app/routes/application.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/routes/new.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/styles/print.scss",
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates/preview.hbs",
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates/components/drop-zone.hbs",
+		"/C/Users/Honza/Workspace/Web/vgen/config/environment.js",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Honza/Workspace/Web/vgen/dist/crossdomain.xml",
+		"/C/Users/Honza/Workspace/Web/vgen/app/app.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/styles/_settings.scss",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/Glue.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/Glue/Glue.sublime-settings",
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates/create.hbs",
+		"/C/Users/Honza/Workspace/Web/vgen/node_modules/ember-cli/node_modules/npm/node_modules/fs-vacuum/test/no-entries-with-purge.js",
+		"/C/Users/Honza/Workspace/Web/vgen/bower_components/modernizr/feature-detects/network-eventsource.js",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Honza/Workspace/Web/vgen/app/index.html",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Honza/Workspace/Web/vgen/vgen.sublime-project",
+		"/C/Users/Honza/Workspace/Web/vgen/node_modules/ember-cli/node_modules/bower/node_modules/fstream/lib/dir-reader.js",
+		"/C/Users/Honza/Workspace/Web/vgen/bower_components/jquery-placeholder/demo.html",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/TernJS/TernJS.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/C/Users/Honza/Workspace/Web/vgen/node_modules/ember-cli/node_modules/npm/scripts/clean-old.sh",
+		"/C/Users/Honza/Workspace/Web/vgen/bower_components/modernizr/feature-detects/css-objectfit.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/views/application.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/styles/app.css",
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates/components/file-upload.hbs",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Installed Packages/Package Control.sublime-package",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/SCSS.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Honza/Workspace/Web/vgen/app/router.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/routes/index.js",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Honza/Workspace/Web/vgen/bower_components/chance/chance.js",
+		"/C/Users/Honza/Workspace/Web/vgen/Brocfile.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/util/vouchergen.js",
+		"/C/Users/Honza/Workspace/Web/vgen/app/components/file-upload.js",
+		"/C/Users/Honza/Workspace/Web/vgen/.jshintrc",
+		"/C/Users/Honza/Workspace/Web/vgen/app/templates/components/.gitkeep",
+		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Honza/Workspace/Web/temporary/index.html",
+		"/C/Users/Honza/Workspace/Web/voucher/index.html",
+		"/C/Users/Honza/Workspace/Web/truebeauty/index.html",
 		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
 		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
-		"/C/Users/Honza/Workspace/Web/vgen/app/index.html",
-		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Honza/Workspace/Web/vgen/app/templates/application.hbs",
-		"/C/Users/Honza/Workspace/Web/vgen/app/styles/print.scss",
-		"/C/Users/Honza/Workspace/Web/voucher/index.html",
 		"/C/Users/Honza/Workspace/Web/vgen/dist/assets/vgen.js",
-		"/C/Users/Honza/Workspace/Web/vgen/vgen.sublime-project",
-		"/C/Users/Honza/Workspace/Web/vgen/app/styles/_settings.scss",
 		"/C/Users/Honza/Workspace/Web/vouchergen.html",
 		"/C/Users/Honza/Workspace/Web/vouchergen.js",
 		"/C/Users/Honza/Workspace/Web/truebeauty/css/agency.css",
 		"/C/Users/Honza/Workspace/Web/code_list.txt",
-		"/C/Users/Honza/Workspace/Web/truebeauty/index.html",
-		"/C/Users/Honza/Workspace/Web/temporary/index.html",
 		"/C/Users/Honza/Workspace/Web/truebeauty/less/agency.less",
 		"/C/Users/Honza/Workspace/Web/truebeauty/less/mixins.less",
 		"/C/Users/Honza/Workspace/Web/truebeauty/less/variables.less",
@@ -168,7 +257,6 @@
 		"/C/Users/Honza/Workspace/Ember/rock-and-roll-episode-7/comps/episode2/no-artist.html",
 		"/C/Users/Honza/Workspace/Ember/rock-and-roll-episode-7/comps/episode6/index.html",
 		"/C/Users/Honza/Workspace/Ember/rock-and-roll-episode-7/js/app.js",
-		"/C/Users/Honza/AppData/Roaming/Sublime Text 3/Packages/User/Glue.sublime-settings",
 		"/C/Users/Honza/Workspace/Ember/Contacts/config/terminal.glue",
 		"/C/Users/Honza/Workspace/Ember/Todos/app/routes/todos/complete.js",
 		"/C/Users/Honza/Workspace/Ember/Todos/app/routes/todos/active.js",
@@ -191,13 +279,14 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"",
 			"app",
 			""
 		]
@@ -207,6 +296,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"*security_policy*",
+			"security_policy",
+			"javascr",
+			"ignore",
+			"100",
+			"grayscale",
+			"opacity",
+			"file-upload",
+			"string(",
+			"apply",
+			"conso",
 			"\"",
 			"scroll",
 			"page-scroll",
@@ -301,276 +401,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/templates/application.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 228,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								228,
-								228
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/controllers/application.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 131,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81,
-								81
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/styles/app.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 201,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -599,9 +437,21 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 110.0
 	},
 	"project": "vgen.sublime-project",
 	"replace":
@@ -614,6 +464,58 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"termi",
+				"terminal.glue"
+			],
+			[
+				"new.js",
+				"app\\routes\\new.js"
+			],
+			[
+				"applica",
+				"app\\routes\\application.js"
+			],
+			[
+				"drop",
+				"app\\styles\\components\\_drop-zone.scss"
+			],
+			[
+				"env",
+				"config\\environment.js"
+			],
+			[
+				"environ",
+				"config\\environment.js"
+			],
+			[
+				"color",
+				"app\\styles\\_colors.scss"
+			],
+			[
+				"application",
+				"app\\routes\\application.js"
+			],
+			[
+				"new.hbs",
+				"app\\templates\\new.hbs"
+			],
+			[
+				"dropzonehb",
+				"app\\templates\\components\\drop-zone.hbs"
+			],
+			[
+				"dropzone",
+				"app\\styles\\components\\_drop-zone.scss"
+			],
+			[
+				"dropzonejs",
+				"app\\components\\drop-zone.js"
+			],
+			[
+				"colors",
+				"app\\styles\\_colors.scss"
+			]
 		],
 		"width": 0.0
 	},
@@ -636,14 +538,24 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 220.0,
+	"side_bar_width": 198.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
+		"max_columns": 2
 	}
 }

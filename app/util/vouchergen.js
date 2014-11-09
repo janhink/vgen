@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	var content = '';
 	for (var i = 0; i < vouchers.length; ++i) {
-		if (i % 6 == 0) {
+		if (i % 6 === 0) {
 			content += '<div class="page">\n';
 		}
 		content += '<div class="voucher"><img class="image" src="voucher.png"></img><span class="code">' + vouchers[i] + '</span></div>\n';
-		if (i % 6 == 5) {
+		if (i % 6 === 5) {
 			content += '</div>\n';
 		}
 	}
