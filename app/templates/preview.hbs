@@ -1,1 +1,12 @@
-{{outlet}}
+<article class="settings row">
+    <label for="select-color">Color</label>
+    {{view "Ember.Select" id="select-color" content=fontColors value=fontColor optionLabelPath="content.label" optionValuePath="content.code"}}
+</article>
+
+<article class="container">
+    {{#code-drag font-color=fontColor}}ABCD-1234{{/code-drag}}
+    {{image-loader action="imageLoaded" width="100%" alt="Preview" title="Preview your picture" src=image.data}}
+    <div class="description">
+        {{width}} x {{height}}
+    </div>
+</article>

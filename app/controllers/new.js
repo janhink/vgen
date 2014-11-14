@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-	image: '',
+	image: null,
 	codes: [],
 
 	genString:  {
@@ -16,10 +16,13 @@ export default Ember.Controller.extend({
 
     actions: {
         reset: function() {
-            this.set('image', '');
+            this.set('image', null);
         },
         upload: function(file, data) {
-            this.set('image', data);
+            this.set('image', { 
+                file: file,
+                data: data 
+            });
         },
         preview: function() {
             this.transitionToRoute('preview');

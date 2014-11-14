@@ -10,6 +10,10 @@ export default Ember.Controller.extend({
             Ember.run.later(function() {
                 that.set('status', '');
             }, 5000);
+        },
+
+        imageLoaded: function(image) {
+            alert(image.naturalWidth + 'x' + image.naturalHeight);
         }
     }
 });

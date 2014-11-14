@@ -1,11 +1,12 @@
 <div class="narrow">
     <article class="dropzone-container">
-        {{#drop-zone action="upload" status="showStatus" background=image}}
+        {{#drop-zone action="upload" status="showStatus" background=image.data}}
         	<div {{bind-attr class=":text image:hide"}}>
                 Click here or drop picture files (png, jpg, gif) into this box.
             </div>
         	<div {{bind-attr class=":image image:hide"}}></div>
         {{/drop-zone}}
+        <div class="description">{{image.file.name}}</div>
     </article>
 
     <article class="row">

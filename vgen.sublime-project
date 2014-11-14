@@ -5,20 +5,5 @@
 			"follow_symlinks": true,
 			"path": "."
 		}
-	],
-    "ternjs": {
-        "include": [
-            "app/**/*.js",
-            "bower_components/ember/ember.js",
-            "bower_components/ember-data/ember-data.js",
-            "bower_components/chance/chance.js"
-        ],
-        "libs": ["browser", "jquery"],
-        "plugins": {
-            "requirejs": {
-                "baseURL": "./js"
-            }
-        }
-
-    }
+	]
 }
