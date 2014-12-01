@@ -2,7 +2,7 @@
     <article class="dropzone-container">
         {{#drop-zone action="upload" status="showStatus" background=image.data}}
         	<div {{bind-attr class=":text image:hide"}}>
-                Click here or drop picture files (png, jpg, gif) into this box.
+                Click here or drop picture files <span class="text-muted">(png, jpg, gif)</span> into this box.
             </div>
         	<div {{bind-attr class=":image image:hide"}}></div>
         {{/drop-zone}}

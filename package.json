@@ -20,8 +20,10 @@
   "devDependencies": {
     "body-parser": "^1.2.0",
     "broccoli-asset-rev": "0.3.1",
+    "broccoli-asset-rewrite": "^1.0.0",
     "broccoli-clean-css": "^0.3.0",
     "broccoli-ember-hbs-template-compiler": "^1.6.1",
+    "broccoli-filter": "^0.1.10",
     "ember-cli": "0.1.2",
     "ember-cli-content-security-policy": "0.3.0",
     "ember-cli-foundation-sass": "^0.4.1",
@@ -32,6 +34,8 @@
     "ember-data": "1.0.0-beta.10",
     "ember-export-application-global": "^1.0.0",
     "express": "^4.8.5",
-    "glob": "^4.0.5"
+    "glob": "^4.0.5",
+    "node-sass": "^1.2.3",
+    "rsvp": "^3.0.14"
   }
 }

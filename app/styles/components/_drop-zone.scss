@@ -26,4 +26,8 @@
 	.dropzone-contents {
 		margin: 25%;
 	}
+
+	&.uploaded {
+		cursor: default;
+	}
 }

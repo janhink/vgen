@@ -19,5 +19,6 @@ var app = new EmberApp();
 
 app.import('bower_components/chance/chance.js');
 app.import('bower_components/jquery-ui/jquery-ui.js');
+app.import('vendor/draggable_background.js');
 
 module.exports = app.toTree();

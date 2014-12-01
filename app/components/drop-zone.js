@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
     tagName: 'div',
     classNames: ['dropzone'],
-    classNameBindings: ['highlight'],
+    classNameBindings: ['highlight', 'background:uploaded'],
     attributeBindings: ['style'],
     file: null,
     clicked: false,
@@ -11,8 +11,16 @@ export default Ember.Component.extend({
     dragCounter: 0,
     allowedTypes: ['image/jpeg', 'image/png', 'image/gif'],
 
+    didInsertElement: function() {
+        
+    },
+
     backgroundObserver: function() {
         this.set('style', 'background-image: url(' + this.get('background') + ')');
+        var that = this;
+        Ember.run.later(function() {
+            that.$().backgroundDraggable();
+        });
     }.observes('background'),
 
     dragEnter: function(e) {
@@ -43,7 +51,7 @@ export default Ember.Component.extend({
     },
 
     click: function(e) {
-        if (!$(e.target).is(this.$('input[type=file]'))) {
+        if (!this.get('background') && !$(e.target).is(this.$('input[type=file]'))) {
             // delegate the click to the input field
             this.$('input[type=file]').click();
         }
